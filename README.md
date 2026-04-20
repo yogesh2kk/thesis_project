@@ -1,22 +1,33 @@
-# 📊 Thesis Project: ILP for Zarankiewicz and Ramsey Bounds
+# 📘 Thesis Project: Zarankiewicz Numbers and Bipartite Ramsey Numbers
 
 ## Overview
-This project uses Integer Linear Programming (ILP) with the GLPK solver to improve upper bounds for Zarankiewicz numbers and bipartite Ramsey numbers.
+This project focuses on improving upper bounds for Zarankiewicz numbers using an Integer Linear Programming (ILP) model implemented with the GLPK solver.
+
+It also explores the relationship between Zarankiewicz numbers and bipartite Ramsey numbers.
+
+## Objective
+- Improve upper bounds for Zarankiewicz numbers
+- Study bipartite Ramsey numbers
+- Use optimization techniques for computation
 
 ## Workflow
-1. Python script generates Roman-type bounds
-2. Results are saved as parameters
-3. GLPK model uses these parameters for optimization
+1. Python script generates bounds
+2. Results are used as input
+3. GLPK model performs optimization
 
 ## Methods
-- ILP (Integer Linear Programming)
+- Integer Linear Programming (ILP)
 - GLPK solver
-- Python computation
+- Python
 
 ## Files
 - thesis_YogeshKumar.pdf
 - generate_roman_bounds.py
 - ramsey_ilp.mod
+
+## Results
+- Improved upper bounds for Zarankiewicz numbers
+- Computational framework for Ramsey-type problems
 
 ## Author
 Yogesh Kumar
